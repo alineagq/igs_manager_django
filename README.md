@@ -1,0 +1,1 @@
+# igs_manager_django
