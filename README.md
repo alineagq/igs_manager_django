@@ -45,6 +45,8 @@ docker-compose exec web python igsmanager/manage.py migrate
 docker-compose exec web python igsmanager/manage.py createsuperuser
 ```
 
+> If you use Python Virtualenv please change variable DATABASE HOST from ``` db``` to ``` localhost``` at ``` settings.py```
+
 ## API Documentation
 
 - ``` http://localhost:8000/admin/ ```
