@@ -4,7 +4,5 @@ djangorestframework-simplejwt
 pyyaml
 requests
 django-cors-headers
-django-redis
-redis
 psycopg2-binary
 django-rest-swagger
