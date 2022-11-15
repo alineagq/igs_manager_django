@@ -7,3 +7,4 @@ django-cors-headers
 django-redis
 redis
 psycopg2-binary
+django-rest-swagger

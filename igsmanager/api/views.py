@@ -4,7 +4,6 @@ from django.views.generic.base import TemplateView
 from .models import Department, Employee
 from .serializers import DepartmentSerializer, EmployeeSerializer
 import requests
-
 class EmployeeCreateAndListView(generics.ListCreateAPIView):
     serializer_class = EmployeeSerializer
     queryset = Employee.objects.order_by('id').select_related('department')
