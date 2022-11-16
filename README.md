@@ -59,7 +59,15 @@ docker-compose exec web python igsmanager/manage.py createsuperuser
 
 > The API Documentation can be access through ``` http://localhost:8000/doc ``` 
 
-Response Body exemple 
+## API example
+
+### Request
+```sh
+curl -H "Content-Type: application/javascript" http://localhost:8000/employee/
+```
+
+### Body Response
+
 ```json 
 [
   {
